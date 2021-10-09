@@ -1,0 +1,258 @@
+/* body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+} */
+
+body {
+    /* background-color: #09243c; */
+    /* background-color: rgba(0, 92,169,.8); */
+    /* background-color: rgba(9, 36,60,1); */
+    /* 9 36 60  10 56 97*/
+    background-color: rgba(10, 56,97,1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* menu */
+.custom_menu{
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.custom_menu .logo img {
+    /* width: 50%; */
+    width: 60%;
+}
+.barr .fa-bars{
+  color: white;
+  font-size: 24px;
+}
+
+.header_text {
+  position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 378px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 80px;
+}
+
+
+
+.first_subtitle {
+    padding-bottom: 14px;
+    position: relative;
+}
+
+
+.header_text .first_subtitle h4 {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.header_text .main_title h1 {
+    text-transform: uppercase;
+    /* font-family: cursive; */
+    color: white;
+    letter-spacing: 9px;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: normal; */
+    font-weight: 200;
+}
+
+a.btn.btn-default.btn_csutom {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 7px 21px;
+    transition: .5s;
+}
+
+a.btn.btn-default.btn_csutom:hover {
+    background: white;
+    color: #0b4c7f;
+      transition: .5s;
+}
+
+.saber_mais {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* POR QUE ESCOLHER A ONEX */
+
+.container.pq_onex {
+    background: #f5f5f5;
+}
+.container.pq_onex {
+    background: #f5f5f5;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.pq_onex .row .col_pd{
+  padding: 38px;
+}
+span.span_onex {
+    font-weight: bold;
+}
+
+.title_pr_escolher h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+.desc_pq p {
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+/* end POR QUE ESCOLHER A ONEX */
+
+section.container-fluid.custom_box {
+    /* background: #09243c; */
+
+}
+.custom_box .container{
+  padding: 0!important;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    background: url(../images/image_header1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+}
+
+.banner_overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rebeccapurple; */
+    background-image: -moz-linear-gradient(0deg, #005ca9 0%, #00bdd3 100%);
+    background-image: -webkit-linear-gradient(0deg, #005ca9 0%, #00bdd3 100%);
+    background-image: -ms-linear-gradient(0deg, #005ca9 0%, #00bdd3 100%);
+    opacity: .7;
+}
+
+.container_filter {
+    background: white;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+
+
+
+/* CUSTOM STYLE ISOTOPE*/
+p {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brand {
+  text-align: center;
+}
+
+.brand img {
+  width: 50px;
+}
+
+.p1:hover, .p2:hover {
+	opacity: .3;
+  cursor: pointer;
+}
+
+h4 {
+	color: grey;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+#portfolio p {
+	color: grey;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+.single-content {
+  width:25%;
+
+}
+.single-content img {
+	/* width: 290px; */
+  width: 100%;
+
+	 height: 100%;
+   padding: 10px;
+
+}
+
+.filters {
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 20px 0;
+}
+
+li {
+	display: inline;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: #636363;
+	font-weight: 400;
+	cursor: pointer;
+  	text-transform: uppercase;
+  	letter-spacing: .2em;
+}
+
+li:hover {
+	color: #a6a6a6;
+}
+
+li.active {
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+
+/* CUSTOM STYLE ISOTOPE*/
